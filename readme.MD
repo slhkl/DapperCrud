@@ -1,0 +1,2 @@
+ - Using MSSQL from Docker
+ - docker run --name mssql -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=MSSql1401" -p 1401:1433 -d mcr.microsoft.com/mssql/server:2022-latest
